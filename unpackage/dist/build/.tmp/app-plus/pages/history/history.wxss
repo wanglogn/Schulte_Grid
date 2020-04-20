@@ -1,0 +1,99 @@
+
+.history {
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 187, 88, 1)), to(rgba(254, 62, 36, 1)));
+	background: -o-linear-gradient(top, rgba(255, 187, 88, 1), rgba(254, 62, 36, 1));
+	background: linear-gradient(180deg, rgba(255, 187, 88, 1), rgba(254, 62, 36, 1));
+	overflow: hidden;
+}
+.content {
+	width: 717rpx;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 20px;
+	margin:25rpx auto 0rpx;
+	overflow: hidden;
+}
+.title{
+	width:685rpx;
+	height:73rpx;
+	background:rgba(254,210,177,1);
+	border-radius:20rpx;
+	margin:15rpx auto 0rpx;
+	
+	font-size:29rpx;
+	font-family:Adobe Heiti Std;
+	font-weight:normal;
+	color:rgba(34,34,34,1);
+	text-align: center;
+	line-height: 73rpx;
+}
+.list{
+	width: 618rpx;
+	margin: 0 auto;
+}
+.list_tit{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:row;
+	    -ms-flex-direction:row;
+	        flex-direction:row;
+	border-bottom:1rpx dotted rgba(189,189,189,1);
+}
+.list_tit view{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+	text-align: center;
+	margin:37rpx auto 30rpx;
+	font-size:26rpx;
+	font-family:Adobe Heiti Std;
+	font-weight:normal;
+	color:rgba(189,189,189,1);
+}
+.list_con .times,.list_tit .times{
+	-webkit-box-flex:1.2;
+	-webkit-flex:1.2;
+	    -ms-flex:1.2;
+	        flex:1.2
+}
+.list_con .stars,.list_con .stars{
+	-webkit-box-flex:1.5;
+	-webkit-flex:1.5;
+	    -ms-flex:1.5;
+	        flex:1.5
+}
+.stars image{
+	width: 39rpx;
+	height: 39rpx;
+}
+.scroll_view{
+	max-height: 967rpx;
+}
+.list_con{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.list_con>view{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: center;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+

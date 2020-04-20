@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-grid/uni-grid"],{"24e9":function(e,t,n){"use strict";n.r(t);var i=n("f6ea"),u=n.n(i);for(var r in i)"default"!==r&&function(e){n.d(t,e,function(){return i[e]})}(r);t["default"]=u.a},"4c2b":function(e,t,n){},"720d":function(e,t,n){"use strict";var i=function(){var e=this,t=e.$createElement;e._self._c},u=[];n.d(t,"a",function(){return i}),n.d(t,"b",function(){return u})},d870:function(e,t,n){"use strict";n.r(t);var i=n("720d"),u=n("24e9");for(var r in u)"default"!==r&&function(e){n.d(t,e,function(){return u[e]})}(r);n("e941");var o=n("2877"),a=Object(o["a"])(u["default"],i["a"],i["b"],!1,null,null,null);t["default"]=a.exports},e941:function(e,t,n){"use strict";var i=n("4c2b"),u=n.n(i);u.a},f6ea:function(e,t,n){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var n={name:"UniGrid",props:{column:{type:Number,default:3},showBorder:{type:Boolean,default:!0},borderColor:{type:String,default:"#d0dee5"},hor:{type:Number,default:0},ver:{type:Number,default:0},square:{type:Boolean,default:!0},highlight:{type:Boolean,default:!0}},provide:function(){return{grid:this}},data:function(){var e="Uni_".concat(Math.ceil(1e6*Math.random()).toString(36));return{index:0,elId:e}},created:function(){this.index=0,this.childrens=[],this.pIndex=this.pIndex?this.pIndex++:0},methods:{change:function(e){this.$emit("change",e)},_getSize:function(t){var n=this;e.createSelectorQuery().in(this).select("#".concat(this.elId)).boundingClientRect().exec(function(e){if(e[0]){var i=e[0].width/n.column-1+"px";"function"===typeof t&&t(i)}else setTimeout(n._getSize(t))})}}};t.default=n}).call(this,n("6e42")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-grid/uni-grid-create-component',
+    {
+        'components/uni-grid/uni-grid-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("d870"))
+        })
+    },
+    [['components/uni-grid/uni-grid-create-component']]
+]);                

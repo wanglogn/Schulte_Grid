@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+				// "navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "舒尔特方格"
+				// "navigationStyle":"custom"
+			}
+		}, {
+			"path": "pages/play/play",
+			"style": {
+				"navigationBarTitleText": "开始游戏"
+				// "navigationStyle":"custom"
+			}
+		}, {
+			"path": "pages/grade/grade",
+			"style": {
+				"navigationBarTitleText": "游戏成绩"
+				// "navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/history/history",
+            "style" : {
+				"navigationBarTitleText": "历史成绩"
+				// "navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/criterion/criterion",
+            "style" : {
+				"navigationBarTitleText": "标准详情"
+				// "navigationStyle":"custom"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "login", //模式名称
+				"path": "pages/login/login", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			}, {
+				"name": "index", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			}, {
+				"name": "play", //模式名称
+				"path": "pages/play/play", //启动页面，必选
+				"query": "num=3" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "grade", //模式名称
+				"path": "pages/grade/grade", //启动页面，必选
+				"query": "num=3" //启动参数，在页面的onLoad函数里面得到。
+			}
+			,{
+				"name": "history", //模式名称
+				"path": "pages/history/history", //启动页面，必选
+				"query": "num=4" //启动参数，在页面的onLoad函数里面得到。
+			}
+			,{
+				"name": "criterion", //模式名称
+				"path": "pages/criterion/criterion", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			}
+		]
+	}
+}
